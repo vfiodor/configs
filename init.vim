@@ -8,10 +8,16 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'altercation/vim-colors-solarized'
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-fugitive'
+Plug 'mustache/vim-mustache-handlebars'
 call plug#end()
 
 set number
 set nohlsearch
+
+"Tabs
+set expandtab
+set tabstop=2
+set shiftwidth=2
 
 let g:solarized_termcolors = 256
 let g:airline_powerline_fonts = 1
